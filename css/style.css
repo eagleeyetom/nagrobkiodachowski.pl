@@ -158,10 +158,18 @@ section.content p {
         width: 100%;
         text-align: center;
         line-height: 30px !important;
-        color: ##111;
+        color: #111;
     }
 
     section.content {
         padding: 20px;
     }
+}
+
+footer {
+    background: lightgrey;
+    height: 300px;
+    color: #000;
+    line-height: 50px;
+    padding: 0 20px;
 }
