@@ -1,0 +1,145 @@
+body,
+html {
+    font-size: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav ul li a {
+    color: silver;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+}
+
+nav ul li {
+    border-bottom: 1px dotted #ddd;
+}
+
+/*styling logo*/
+
+nav div:first-child {
+    background: #fff;
+    margin-left: 100px;
+}
+
+nav div:first-child h1 {
+    line-height: 0;
+    padding: .8rem 0rem;
+    text-align: center;
+}
+
+nav div:first-child img {
+    filter: contrast(0);
+}
+
+nav div:first-child h1,
+nav ul {
+    margin: 0;
+}
+
+/*Styling for larger devices*/
+
+@media only screen and (min-width: 30em) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        background: none;
+        flex-wrap: wrap;
+        margin-right: 100px;
+    }
+
+    nav div:first-child h1 {
+        padding: 0;
+        margin: 0 1rem;
+    }
+
+    nav div:first-child img {
+        height: 40px;
+
+    }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 0 auto;
+        position: relative;
+    }
+
+    nav ul li a {
+        padding: 1.2rem 1rem;
+        text-transform: uppercase;
+    }
+
+    nav ul li a::before,
+    nav ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0%;
+        height: 2px;
+        background: #444;
+        transition: .2s width ease-in-out;
+    }
+
+    nav ul li a:hover {
+        color: #444;
+    }
+
+    nav ul li a::before {
+        left: 0;
+    }
+
+    nav ul li a:hover::after,
+    nav ul li a:hover::before {
+        width: 50%;
+    }
+
+}
+
+.active {
+    background-color: #444;
+}
+
+#btn-go-to-top {
+    float: right;
+    font-size: 3em;
+    color: #000;
+    margin-right: 10px;
+    position: static;
+}
+
+#btn-go-to-top:hover {
+
+}
+
+.top {
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
