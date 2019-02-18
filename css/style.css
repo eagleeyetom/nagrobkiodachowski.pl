@@ -171,8 +171,30 @@ section.content p {
 
 footer {
     background: lightgrey;
-    height: 300px;
-    color: #000;
-    line-height: 50px;
-    padding: 0 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.dane {
+    justify-content: space-between;
+    display: flex;
+}
+
+.dane li {
+  list-style: none;
+
+}
+
+.dane li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mapouter {
+  clear: both;
+  margin: 5px 0;
 }
