@@ -186,6 +186,16 @@ section.content p {
     }
 }
 
+.gallery img {
+    padding: 10px;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
 footer {
     background: lightgrey;
     position: relative;
