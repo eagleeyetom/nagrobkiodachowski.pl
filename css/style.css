@@ -8,6 +8,14 @@ body {
     font-family: sans-serif;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Navbar */
+
 nav {
     position: fixed;
     top: 0;
@@ -79,36 +87,11 @@ section.navbar {
     background-image: url(../img/bg.jpg);
 }
 
-#motto {
-    text-align: center;
-    font-family: roboto;
-    text-transform: uppercase;
-    margin: -60px 0 30px;
-}
-
 @media screen and (max-width: 800px) {
     #motto {
         margin: 0;
         font-size: 18px;
     }
-}
-
-section.content {
-    padding: 100px;
-    text-align: justify;
-}
-
-section.content h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-}
-
-section.content p {
-    margin: 10px 0 0;
-    padding: 0;
-    font-size: 1.1em;
-    color: #111;
 }
 
 .responsive-bar {
@@ -186,6 +169,37 @@ section.content p {
     }
 }
 
+/* Slogan */
+
+#motto {
+    text-align: center;
+    font-family: roboto;
+    text-transform: uppercase;
+    margin: -60px 0 30px;
+}
+
+/* Text */
+
+section.content {
+    padding: 100px;
+    text-align: justify;
+}
+
+section.content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+section.content p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 1.1em;
+    color: #111;
+}
+
+/*Gallery */
+
 .gallery img {
     padding: 10px;
     transition: 1s;
@@ -194,6 +208,8 @@ section.content p {
 .gallery img:hover {
     transform: scale(1.1);
 }
+
+/* Footer */
 
 
 footer {
@@ -250,12 +266,6 @@ footer {
     text-align: center;
 }
 
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
 
 .fab {
     display: inline-block;
