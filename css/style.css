@@ -383,3 +383,13 @@ footer {
         display: none;
     }
 }
+
+
+.webmaster, .webmaster a {
+    text-align: right;
+    color: #fff;
+    background-color: #111;
+    width: 100%;
+    padding-right: 10px;
+    text-decoration: none;
+}
