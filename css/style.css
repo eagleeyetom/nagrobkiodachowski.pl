@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,7 +27,6 @@ nav {
     width: 100%;
     height: 100px;
     padding: 10px 100px;
-    box-sizing: border-box;
     transition: .5s;
     z-index: 3;
 }
@@ -108,7 +111,6 @@ section.navbar {
         top: 0;
         left: 0;
         padding: 5px 20px;
-        box-sizing: border-box;
         z-index: 4;
     }
 
@@ -183,6 +185,7 @@ section.navbar {
 section.content {
     padding: 100px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 section.content h1 {
@@ -193,20 +196,56 @@ section.content h1 {
 
 section.content p {
     margin: 10px 0 0;
-    padding: 0;
     font-size: 1.1em;
     color: #111;
 }
 
-/*Gallery */
-
-.gallery img {
-    padding: 10px;
-    transition: 1s;
+@media screen and (max-width: 800px) {
+    section.content {
+        padding: 5px;
+    }
 }
 
-.gallery img:hover {
+/*Gallery */
+
+.gallery_row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery_column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.gallery_column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    transition: 1s;
+    justify-content: center;
+}
+
+.gallery_column img:hover {
     transform: scale(1.1);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .gallery_column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .gallery_column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 /* Footer */
@@ -218,7 +257,6 @@ footer {
     bottom: 0;
     width: 100%;
     height: 400px;
-    box-sizing: border-box;
     padding-top: 30px;
 }
 
