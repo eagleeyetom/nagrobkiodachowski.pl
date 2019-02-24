@@ -28,7 +28,7 @@
     position: absolute;
     background-image: url(../img/playPause.png);
     background-repeat: no-repeat;
-    z-index: 5;
+    z-index: 2;
     background-size: cover;
     margin: 5px;
     cursor: pointer;
