@@ -42,12 +42,13 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 80px;
+    height: 100px;
+    margin-top: -15px;
     transition: .5s;
 }
 
 nav.black .logo img {
-    height: 60px;
+    height: 100px;
 }
 
 nav ul {
@@ -67,6 +68,8 @@ nav ul li a {
     padding: 5px 20px;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
     transition: .5s;
     font-family: 'Roboto', sans-serif;
 }
@@ -390,4 +393,8 @@ footer {
     width: 100%;
     padding-right: 10px;
     text-decoration: none;
+}
+
+#email {
+    text-transform: lowercase;
 }
