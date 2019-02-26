@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="js/navbar.js"></script>
@@ -40,34 +41,57 @@
         </ul>
     </nav>
     <section class="navbar"></section>
+    <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div id="playPause" onclick="playPauseSlides()"></div>
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder">
+                <p class="captionText slideTextFromTop"></p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_1.jpg">
+                <p class="captionText">Caption Text-01</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_2.jpg">
+                <p class="captionText">Caption Text-02</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_3.jpg">
+                <p class="captionText">Caption Text-03</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_4.jpg">
+                <p class="captionText">Caption Text-04</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_5.jpg">
+                <p class="captionText">Caption Text-05</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_6.jpg">
+                <p class="captionText">Caption Text-06</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_7.jpg">
+                <p class="captionText">Caption Text-07</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_8.jpg">
+                <p class="captionText">Caption Text-08</p>
+            </div>
+            <div class="imageHolder">
+                <img src="img/slide/slide_9.jpg">
+                <p class="captionText">Caption Text-09</p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
     <section class="content">
 
         <h1 id="motto">Wysoka jakość w rozsądnej cenie!</h1>
         <hr>
-
-        <div class="galleryContainer">
-            <div class="slideShowContainer">
-                <div id="playPause" onclick="playPauseSlides()"></div>
-                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
-                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
-                <div class="captionTextHolder">
-                    <p class="captionText slideTextFromTop"></p>
-                </div>
-                <div class="imageHolder">
-                    <img src="img/photo1.jpeg">1366X768
-                    <p class="captionText">Caption Text-01</p>
-                </div>
-                <div class="imageHolder">
-                    <img src="img/photo2.jpeg">
-                    <p class="captionText">Caption Text-02</p>
-                </div>
-                <div class="imageHolder">
-                    <img src="img/photo3.jpeg">
-                    <p class="captionText">Caption Text-03</p>
-                </div>
-            </div>
-            <div id="dotsContainer"></div>
-        </div>
         <hr>
         <div style="text-align:center">
             <h2>O nas</h2>

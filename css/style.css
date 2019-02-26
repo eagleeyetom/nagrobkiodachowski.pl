@@ -166,9 +166,9 @@ section.navbar {
 
 #motto {
     text-align: center;
-    font-family: roboto;
+    font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
-    margin: -60px 0 30px;
+    margin: -100px 0 0;
 }
 
 @media screen and (max-width: 800px) {
