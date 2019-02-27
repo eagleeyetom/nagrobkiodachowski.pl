@@ -182,6 +182,7 @@ section.navbar {
 #motto {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -192,14 +193,10 @@ section.navbar {
     }
 }
 
-.kamieniarstwo {
-margin-top: -100px;
-}
-
 /* Text */
 
 section.content {
-    padding: 100px 100px 0;
+    padding: 0 100px 0;
     text-align: justify;
     line-height: 1.5;
 }
@@ -312,11 +309,14 @@ footer {
     height: 300px;
     width: 500px;
 
+
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
+    /*border:2px solid #111;
+    border-radius: 10px;*/
 }
 
 #gmap_canvas {
