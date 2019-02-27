@@ -45,22 +45,24 @@ nav {
 
 nav.black {
     background-image: url(../img/bg.jpg);
-    height: 80px;
+    height: 100px;
     padding: 10px 50px;
 }
 
 nav .logo {
     float: left;
+    display: flex;
+    font-size: 30px;
 }
 
 nav .logo img {
-    height: 100px;
-    margin-top: -15px;
+    height: 140px;
+    margin-top: -20px;
     transition: .5s;
 }
 
 nav.black .logo img {
-    height: 100px;
+    height: 120px;
 }
 
 nav ul {
@@ -100,7 +102,7 @@ nav ul li a:hover {
 
 section.navbar {
     width: 100%;
-    height: 10vh;
+    height: 120px;
     background-image: url(../img/bg.jpg);
 }
 

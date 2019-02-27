@@ -5,6 +5,7 @@
     margin: auto;
     user-select: none;
     padding: 0;
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 1780px) {
