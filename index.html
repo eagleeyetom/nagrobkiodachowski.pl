@@ -33,15 +33,15 @@
         <div class="logo">
             <img src="img/logo.png">
         </div>
-        <ul>
-            <li><a href="#" class="active">Start</a></li>
-            <li><a href="#o_nas">O nas</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+            <ul class="menu" id="main-menu">
+                <li><a href="#start" class="menu-item active">Start</a></li>
+                <li><a href="#oNas" class="menu-item">O nas</a></li>
+                <li><a href="#galeria" class="menu-item">Galeria</a></li>
+                <li><a href="#kontakt" class="menu-item">Kontakt</a></li>
+            </ul>
     </nav>
     <section class="navbar"></section>
-    <section class="slideshow">
+    <section class="slideshow section scrollspy" id="start">
         <div class="galleryContainer">
             <div class="slideShowContainer">
                 <div id="playPause" onclick="playPauseSlides()"></div>
@@ -90,21 +90,26 @@
             <div id="dotsContainer"></div>
         </div>
     </section>
-    <section class="content">
 
-        <h1 id="motto">Wysoka jakość w rozsądnej cenie!</h1>
+
+    <h1 id="motto">Wysoka jakość w rozsądnej cenie!</h1>
+    <hr>
+    <div>
+        <h2>O nas</h2>
         <hr>
+    </div>
+    <section class="content section scrollspy" id="oNas">
         <div>
-            <h2>O nas</h2>
-            <hr>
+            <h3>Kamieniarstwo</h3>
         </div>
-        <div><h3>Kamieniarstwo</h3></div>
         <p id="o_nas">Jesteśmy firmą działającą od 2015 r. Mimo stosunkowo niewielkiego doświadczenia, oferujemy usługi na najwyższym poziomie. Przy produkcji nagrobków <strong>korzystamy z najlepszego rodzaju kamieni naturalnych</strong>, wydobywanych w różnych krajach świata.</p>
         <p>Szybko pozyskujemy nowych klientów nie tylko ze względu na jakość usług i konkurencyjne ceny, ale przede wszystkim na <strong>indywidualne podejście do klienta – dojeżdżamy do niego z ofertą i służymy fachową poradą</strong>.</p>
         <p>Nie bez znaczenia jest również fakt, iż <strong>wykonujemy usługi kompleksowo</strong> tzn. demontujemy i utylizujemy stare nagrobki, produkujemy i stawiamy nagrobki z granitu, układamy kostkę brukową wokół pomnika, wypisujemy tablice nagrobne, grawerujemy zdjęcia i wizerunki na kamieniu, a także wykonujemy rzeźby nagrobne.</p>
         <p><strong>Posiadamy</strong> również <strong>w sprzedaży akcesoria</strong>, takie jak: krzyże, figurki, itp.</p>
         <p>Wychodząc naprzeciw oczekiwaniom klientów, stworzyliśmy natomiast <strong>możliwość kupna pomników na raty</strong> na zasadach uzgodnionych indywidualnie. </p>
-        <div><h3>Sztuczne kwiaty</h3></div>
+        <div>
+            <h3>Sztuczne kwiaty</h3>
+        </div>
         <p>W sprzedaży posiadamy sztuczne kwiaty – wieńce, wiązanki, a także znicze.</p>
         <p>Dbamy, aby nasza <strong>oferta</strong> była <strong>szeroka, urozmaicona</strong> i odpowiadała nawet najbardziej wymagającym. Z tego tez powodu stworzyliśmy <strong>możliwość składania indywidualnych zamówień</strong> na kompozycje kwiatowe, wieńce i wiązanki ( dostosowanie kolorystyki, wielkość, kształt).</p>
         <p>Dzięki zastosowaniu wysokiej jakości towarów i solidnemu wykonaniu – tworzone przez nas <strong>kompozycje długo nie tracą swojego pierwotnego wyglądu.</strong></p>
@@ -115,40 +120,42 @@
         <h2 id="galeria">Galeria</h2>
         <hr>
     </div>
-    <div class="galeria">
-        <div class="gallery_row">
-            <div class="gallery_column">
-                <a href="img/photo/photo_1.jpg" data-lightbox="mygallery"><img src="img/photo/photo_1.jpg" width="100%"></a>
-                <a href="img/photo/photo_2.jpg" data-lightbox="mygallery"><img src="img/photo/photo_5.jpg" width="100%"></a>
-                <a href="img/photo/photo_9.jpg" data-lightbox="mygallery"><img src="img/photo/photo_9.jpg" width="100%"></a>
-                <a href="img/photo/photo_13.jpg" data-lightbox="mygallery"><img src="img/photo/photo_13.jpg" width="100%"></a>
-                <a href="img/photo/photo_17.jpg" data-lightbox="mygallery"><img src="img/photo/photo_1.jpg" width="100%"></a>
-                <a href="img/photo/photo_21.jpg" data-lightbox="mygallery"><img src="img/photo/photo_21.jpg" width="100%"></a>
-            </div>
-            <div class="gallery_column">
-                <a href="img/photo/photo_2.jpg" data-lightbox="mygallery"><img src="img/photo/photo_2.jpg" width="100%"></a>
-                <a href="img/photo/photo_6.jpg" data-lightbox="mygallery"><img src="img/photo/photo_6.jpg" width="100%"></a>
-                <a href="img/photo/photo_10.jpg" data-lightbox="mygallery"><img src="img/photo/photo_10.jpg" width="100%"></a>
-                <a href="img/photo/photo_14.jpg" data-lightbox="mygallery"><img src="img/photo/photo_14.jpg" width="100%"></a>
-                <a href="img/photo/photo_18.jpg" data-lightbox="mygallery"><img src="img/photo/photo_18.jpg" width="100%"></a>
-            </div>
-            <div class="gallery_column">
-                <a href="img/photo/photo_3.jpg" data-lightbox="mygallery"><img src="img/photo/photo_3.jpg" width="100%"></a>
-                <a href="img/photo/photo_7.jpg" data-lightbox="mygallery"><img src="img/photo/photo_7.jpg" width="100%"></a>
-                <a href="img/photo/photo_11.jpg" data-lightbox="mygallery"><img src="img/photo/photo_11.jpg" width="100%"></a>
-                <a href="img/photo/photo_15.jpg" data-lightbox="mygallery"><img src="img/photo/photo_15.jpg" width="100%"></a>
-                <a href="img/photo/photo_19.jpg" data-lightbox="mygallery"><img src="img/photo/photo_19.jpg" width="100%"></a>
-                <a href="img/photo/photo_22.jpg" data-lightbox="mygallery"><img src="img/photo/photo_22.jpg" width="100%"></a>
-            </div>
-            <div class="gallery_column">
-                <a href="img/photo/photo_4.jpg" data-lightbox="mygallery"><img src="img/photo/photo_4.jpg" width="100%"></a>
-                <a href="img/photo/photo_8.jpg" data-lightbox="mygallery"><img src="img/photo/photo_8.jpg" width="100%"></a>
-                <a href="img/photo/photo_12.jpg" data-lightbox="mygallery"><img src="img/photo/photo_12.jpg" width="100%"></a>
-                <a href="img/photo/photo_16.jpg" data-lightbox="mygallery"><img src="img/photo/photo_16.jpg" width="100%"></a>
-                <a href="img/photo/photo_20.jpg" data-lightbox="mygallery"><img src="img/photo/photo_20.jpg" width="100%"></a>
+    <section class="section scrollspy" id="galeria">
+        <div class="galeria">
+            <div class="gallery_row">
+                <div class="gallery_column">
+                    <a href="img/photo/photo_1.jpg" data-lightbox="mygallery"><img src="img/photo/photo_1.jpg" width="100%"></a>
+                    <a href="img/photo/photo_2.jpg" data-lightbox="mygallery"><img src="img/photo/photo_5.jpg" width="100%"></a>
+                    <a href="img/photo/photo_9.jpg" data-lightbox="mygallery"><img src="img/photo/photo_9.jpg" width="100%"></a>
+                    <a href="img/photo/photo_13.jpg" data-lightbox="mygallery"><img src="img/photo/photo_13.jpg" width="100%"></a>
+                    <a href="img/photo/photo_17.jpg" data-lightbox="mygallery"><img src="img/photo/photo_1.jpg" width="100%"></a>
+                    <a href="img/photo/photo_21.jpg" data-lightbox="mygallery"><img src="img/photo/photo_21.jpg" width="100%"></a>
+                </div>
+                <div class="gallery_column">
+                    <a href="img/photo/photo_2.jpg" data-lightbox="mygallery"><img src="img/photo/photo_2.jpg" width="100%"></a>
+                    <a href="img/photo/photo_6.jpg" data-lightbox="mygallery"><img src="img/photo/photo_6.jpg" width="100%"></a>
+                    <a href="img/photo/photo_10.jpg" data-lightbox="mygallery"><img src="img/photo/photo_10.jpg" width="100%"></a>
+                    <a href="img/photo/photo_14.jpg" data-lightbox="mygallery"><img src="img/photo/photo_14.jpg" width="100%"></a>
+                    <a href="img/photo/photo_18.jpg" data-lightbox="mygallery"><img src="img/photo/photo_18.jpg" width="100%"></a>
+                </div>
+                <div class="gallery_column">
+                    <a href="img/photo/photo_3.jpg" data-lightbox="mygallery"><img src="img/photo/photo_3.jpg" width="100%"></a>
+                    <a href="img/photo/photo_7.jpg" data-lightbox="mygallery"><img src="img/photo/photo_7.jpg" width="100%"></a>
+                    <a href="img/photo/photo_11.jpg" data-lightbox="mygallery"><img src="img/photo/photo_11.jpg" width="100%"></a>
+                    <a href="img/photo/photo_15.jpg" data-lightbox="mygallery"><img src="img/photo/photo_15.jpg" width="100%"></a>
+                    <a href="img/photo/photo_19.jpg" data-lightbox="mygallery"><img src="img/photo/photo_19.jpg" width="100%"></a>
+                    <a href="img/photo/photo_22.jpg" data-lightbox="mygallery"><img src="img/photo/photo_22.jpg" width="100%"></a>
+                </div>
+                <div class="gallery_column">
+                    <a href="img/photo/photo_4.jpg" data-lightbox="mygallery"><img src="img/photo/photo_4.jpg" width="100%"></a>
+                    <a href="img/photo/photo_8.jpg" data-lightbox="mygallery"><img src="img/photo/photo_8.jpg" width="100%"></a>
+                    <a href="img/photo/photo_12.jpg" data-lightbox="mygallery"><img src="img/photo/photo_12.jpg" width="100%"></a>
+                    <a href="img/photo/photo_16.jpg" data-lightbox="mygallery"><img src="img/photo/photo_16.jpg" width="100%"></a>
+                    <a href="img/photo/photo_20.jpg" data-lightbox="mygallery"><img src="img/photo/photo_20.jpg" width="100%"></a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <script src="js/slideshow.js"></script>
     <script src="js/backtotop.js"></script>
 
@@ -156,48 +163,61 @@
 
     <i class="fas fa-angle-up" onclick="topFunction()" id="BackToTop"></i>
 
-
-    <footer class="footer" id="kontakt">
-        <div class="dane">
-            <ul>
-                <div class="adres">
-                    <div id="adres">
-                        <li>Adres:</li>
+    <section class="section scrollspy" id="kontakt">
+        <footer class="footer">
+            <div class="dane">
+                <ul>
+                    <div class="adres">
+                        <div id="adres">
+                            <li>Adres:</li>
+                        </div>
+                        <hr>
+                        <li>Zakład Kamieniarski</li>
+                        <li>Kamil Odachowski</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Kobylin 9</li>
+                        <li>18-421 Piątnica Poduchowna</li>
+                        <li><i class="fas fa-mobile-alt"></i><a href="tel:500211004 "> 500 211 004 (Nagrobki)</a></li>
+                        <li><i class="fas fa-mobile-alt"></i><a href="tel:500766880 "> 500 766 880 (Kwiaty)</a></li>
+                        <li><i class="fas fa-at"></i><a href="email:nagrobkiodachowski@wp.pl" id="email"> nagrobkiodachowski@wp.pl</a></li>
+                        <div class="fb"><a href="https://www.facebook.com/profile.php?id=907017546109753"><i class="fab fa-facebook-f"></i></a></div>
                     </div>
-                    <hr>
-                    <li>Zakład Kamieniarski</li>
-                    <li>Kamil Odachowski</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Kobylin 9</li>
-                    <li>18-421 Piątnica Poduchowna</li>
-                    <li><i class="fas fa-mobile-alt"></i><a href="tel:500211004 "> 500 211 004 (Nagrobki)</a></li>
-                    <li><i class="fas fa-mobile-alt"></i><a href="tel:500766880 "> 500 766 880 (Kwiaty)</a></li>
-                    <li><i class="fas fa-at"></i><a href="email:nagrobkiodachowski@wp.pl" id="email"> nagrobkiodachowski@wp.pl</a></li>
-                    <div class="fb"><a href="https://www.facebook.com/profile.php?id=907017546109753"><i class="fab fa-facebook-f"></i></a></div>
-                </div>
-                <div class="mapouter">
-                    <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kobylin%209%20pi%C4%85tnica&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-                </div>
-            </ul>
-        </div>
-        <div class="adres_mobile">
-            <div id="adres_mob">
-                <li>Adres:</li>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kobylin%209%20pi%C4%85tnica&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+                    </div>
+                </ul>
             </div>
-            <hr>
-            <li>Zakład Kamieniarski</li>
-            <li>Kamil Odachowski</li>
-            <li><i class="fas fa-map-marker-alt"></i> Kobylin 9</li>
-            <li>18-421 Piątnica Poduchowna</li>
-            <li><i class="fas fa-mobile-alt"></i><a href="tel:500211004 "> 500 211 004 (Nagrobki)</a></li>
-            <li><i class="fas fa-mobile-alt"></i><a href="tel:500766880 "> 500 766 880 (Kwiaty)</a></li>
-            <li><i class="fas fa-at"></i><a href="email:nagrobkiodachowski@wp.pl" id="email"> nagrobkiodachowski@wp.pl</a></li>
-            <div class="fb"><a href="https://www.facebook.com/profile.php?id=907017546109753"><i class="fab fa-facebook-f"></i></a></div>
+            <div class="adres_mobile">
+                <div id="adres_mob">
+                    <li>Adres:</li>
+                </div>
+                <hr>
+                <li>Zakład Kamieniarski</li>
+                <li>Kamil Odachowski</li>
+                <li><i class="fas fa-map-marker-alt"></i> Kobylin 9</li>
+                <li>18-421 Piątnica Poduchowna</li>
+                <li><i class="fas fa-mobile-alt"></i><a href="tel:500211004 "> 500 211 004 (Nagrobki)</a></li>
+                <li><i class="fas fa-mobile-alt"></i><a href="tel:500766880 "> 500 766 880 (Kwiaty)</a></li>
+                <li><i class="fas fa-at"></i><a href="email:nagrobkiodachowski@wp.pl" id="email"> nagrobkiodachowski@wp.pl</a></li>
+                <div class="fb"><a href="https://www.facebook.com/profile.php?id=907017546109753"><i class="fab fa-facebook-f"></i></a></div>
+            </div>
+            <div class="map_mobile">
+                <div class="gmap_mobile_canvas"><iframe id="gmap_mobile_canvas" src="https://maps.google.com/maps?q=kobylin%209%20pi%C4%85tnica&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+            </div>
+        </footer>
+        <div class="webmaster"><a rel="nofollow" href="mailto:tomek.kondrat@gmail.com">&copy; Tomasz Kondrat - 2019</a>
         </div>
-        <div class="map_mobile">
-            <div class="gmap_mobile_canvas"><iframe id="gmap_mobile_canvas" src="https://maps.google.com/maps?q=kobylin%209%20pi%C4%85tnica&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
-        </div>
-    </footer>
-    <div class="webmaster"><a rel="nofollow" href="mailto:tomek.kondrat@gmail.com">&copy; Tomasz Kondrat - 2019</a></div>
+    </section>
+
+    <script src="js/simple-scrollspy.min.js"></script>
+    <script>
+        window.onload = function() {
+            scrollSpy('#main-menu', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 400
+            })
+        }
+    </script>
 </body>
 
 </html>
