@@ -438,3 +438,13 @@ footer {
     padding-top: 9px;
 
 }
+
+@media screen and (max-width: 685px) {
+    #BackToTop {
+        right: 5px;
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+}
