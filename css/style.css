@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(../img/bg.jpg);
+    /*background-image: url(../img/bg.jpg);*/
 }
 
 hr {
@@ -110,6 +110,22 @@ section.navbar {
     display: none;
 }
 
+@media screen and (max-width: 1000px) {
+
+    nav ul {
+    float: right;
+    margin-right: -100px;
+}
+    nav .logo img {
+        height: 140px;
+        margin-top: -20px;
+        margin-left: -80px;
+        transition: .5s;
+    }
+
+
+}
+
 @media (max-width: 800px) {
     .responsive-bar {
         display: block;
@@ -126,7 +142,8 @@ section.navbar {
 
     .responsive-bar .logo img {
         float: left;
-        height: 50px;
+        height: 80px;
+        margin-top: -15px
     }
 
     .responsive-bar .menu {
