@@ -51,41 +51,18 @@ nav.black {
 
 nav .logo {
     float: left;
+    display: flex;
     font-size: 30px;
-    width: 300px;
-    height: 150px;
 }
 
 nav .logo img {
-    width: 100%;
-    margin-top: -45px;
+    height: 140px;
+    margin-top: -20px;
     transition: .5s;
 }
 
-#odach {
-    font-family: 'Spectral', serif;
-    margin-top: -85px;
-    text-align: center;
-}
-
-nav.black .logo p {
-    padding-top: 20px;
-    font-size: 20px;
-    margin-left: -60px;
-}
-
 nav.black .logo img {
-    height: 150px;
-    width: 75%;
-    margin-top: -37px;
-}
-
-#odach {
-    font-family: 'Spectral', serif;
-}
-
-#resp_odach {
-
+    height: 120px;
 }
 
 nav ul {
