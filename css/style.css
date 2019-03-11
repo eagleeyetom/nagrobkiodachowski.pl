@@ -113,9 +113,10 @@ section.navbar {
 @media screen and (max-width: 1000px) {
 
     nav ul {
-    float: right;
-    margin-right: -100px;
-}
+        float: right;
+        margin-right: -100px;
+    }
+
     nav .logo img {
         height: 140px;
         margin-top: -20px;
@@ -123,6 +124,13 @@ section.navbar {
         transition: .5s;
     }
 
+    nav.black img {
+        margin-left: 0;
+    }
+
+    nav.black ul {
+        margin-right: -60px;
+    }
 
 }
 
@@ -210,6 +218,7 @@ section.navbar {
         margin: 0;
         font-size: 18px;
         position: relative;
+        margin-bottom: -20px;
     }
 }
 
