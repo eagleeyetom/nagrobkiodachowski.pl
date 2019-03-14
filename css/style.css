@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-display: fallback;
     background-image: url(../img/bg.jpg);
 }
 
@@ -210,6 +211,7 @@ section.navbar {
 #motto {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    font-display: fallback;
     padding-bottom: 50px;
 }
 
@@ -316,6 +318,7 @@ footer {
     margin: 0px 100px;
     text-transform: uppercase;
     font-family: roboto;
+    font-display: fallback;
     line-height: 2;
     padding-top: 100px;
 }
@@ -408,6 +411,7 @@ footer {
         margin: 0 0 0 20px;
         text-transform: uppercase;
         font-family: roboto;
+        font-display: fallback;
         line-height: 1.5;
     }
 
